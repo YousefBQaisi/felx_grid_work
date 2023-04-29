@@ -1,0 +1,76 @@
+.Flex-container{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+}
+
+.flexbox-item{
+
+margin: 10px;
+border: 3px solid black;
+background-color: darkgray;
+}
+
+
+.flexbox-item-1{ /*header*/
+height: 4vw;
+background-color: aquamarine;
+text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: large;color: white;
+}
+
+.flexbox-item-2{ /*aside*/
+    height: 50vw;
+    width: 25vw;
+    background-color: darkcyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: large;color: white;
+
+
+}
+
+.flexbox-item-3{ /*article*/
+    height:50vw;
+    width: 65vw;
+    position: relative ;left: 110%; bottom: 5%;
+background-color: palevioletred;
+
+}
+
+
+
+.flexbox-item-4{ /*footer*/
+    height: 4vw;
+background-color: aquamarine;
+text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: large;color: white;
+
+}
+
+.img-container{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+#img1{
+    height: 185px;
+    width: 190px;
+border: 3px solid black;
+margin: 220px 0px 0px 100px ;
+background-color: darkgray;
+}
+#img2{
+    height: 185px;
+    width: 190px;
+border: 3px solid black;
+margin: 220px 00px 0px 100px ;
+background-color: darkgray;
+
+}
+
+#img3{
+    height: 185px;
+    width: 190px;
+border: 3px solid black;
+margin:220px 0px 0px 100px ;
+background-color: darkgray;
+
+}
